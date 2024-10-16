@@ -12,27 +12,59 @@
   text-align: center;
   background-color: #dcdcdc;
   padding: 30px;
+  border-radius: 8px; /* Smoother corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Depth */
 }
 
 .login__textBox {
-  padding: 10px;
-  font-size: 18px;
-  margin-bottom: 10px;
+  padding: 12px; /* Increased padding */
+  font-size: 20px; /* Increased font size */
+  margin-bottom: 15px; /* Spacing */
+  border: 1px solid #ccc; /* Input border */
+  border-radius: 4px; /* Rounded corners */
 }
 
 .login__btn {
-  padding: 10px;
-  font-size: 18px;
-  margin-bottom: 10px;
+  padding: 12px; /* Increased padding */
+  font-size: 20px; /* Increased font size */
+  margin-bottom: 15px; /* Spacing */
   border: none;
   color: white;
-  background-color: black;
+  background-color: #555; /* Button color */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.login__btn:hover {
+  background-color: #333; /* Darker on hover */
+}
+
+.forgot-password {
+  color: #4285f4; /* Color for "Forgot Password?" text */
+  font-size: 18px; /* Font size for the text */
+  cursor: pointer; /* Pointer cursor */
+  margin-top: 10px; /* Space above */
+}
+
+.forgot-password:hover {
+  text-decoration: underline; /* Underline on hover */
 }
 
 .login__google {
-  background-color: #4285f4;
+  background-color: #db4437; /* Google button color */
+}
+
+.login__google:hover {
+  background-color: #a12f24; /* Darker on hover for Google button */
 }
 
 .login div {
-  margin-top: 7px;
+  margin-top: 10px; /* Increased margin */
+}
+
+/* Additional global styles */
+body {
+  font-family: 'Arial', sans-serif; /* Global font */
+  background-color: #f0f0f0; /* Light background for contrast */
 }
